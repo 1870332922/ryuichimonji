@@ -34,7 +34,7 @@ public class Tiger extends Item {
         for(int i=0 ; i<2 ; i++) {
             int roll = i==1 ? 45 : 90 ;
             // TODO: Hurt entity
-            // Code in 1.12.2 :
+            // Code in 1.12.2:
             /*
                 EntityDriveEievuiEX entityDrive = new EntityDriveEievuiEX(world, player,4.0F , false, roll);
                 entityDrive.setInitialSpeed(i);
