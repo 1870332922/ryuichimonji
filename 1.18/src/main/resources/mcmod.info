@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ryuichimonji",
+  "name": "RyuIchimonji",
+  "description": "Grobletombus et vivat in aeternum.",
+  "version": "1.18.1-Alpha-0.0.1",
+  "mcversion": "Minecraft-1.18.1",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["R_Liu","Falling_Star_"],
+  "credits": "",
+  "logoFile": "ryuichimonji.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

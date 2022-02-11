@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    " # ",
+    "X X"
+
+  ],
+  "key": {
+    "#": {
+      "item": "slashblade:proudsoul"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "ryuichimonji:golden_tiger",
+    "count": 1
+  }
+}
