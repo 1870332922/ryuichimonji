@@ -2,6 +2,7 @@ package mod.ryuichimonji;
 
 import mod.ryuichimonji.block.ModBlocksRegister;
 import mod.ryuichimonji.effect.ModEffectRegister;
+import mod.ryuichimonji.entity.ModEntityRegister;
 import mod.ryuichimonji.item.ModItemsRegister;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +27,7 @@ public class RyuIchimonji {
         ModItemsRegister.register(eventBus);
         ModBlocksRegister.register(eventBus);
         ModEffectRegister.register(eventBus);
+        ModEntityRegister.register(eventBus);
 
 
 

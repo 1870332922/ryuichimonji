@@ -1,31 +1,26 @@
 package mod.ryuichimonji.entity;
 
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.network.protocol.Packet;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.item.ItemEntity;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 //TODO: Do it !
-public class EntityDriveEievuiEX extends Entity {
+public class EntityDriveEievuiEX extends ItemEntity {
 
-    public EntityDriveEievuiEX(EntityType<?> entityType, Level level) {
-        super(entityType, level);
+    public EntityDriveEievuiEX(EntityType<? extends ItemEntity> p_31991_, Level p_31992_) {
+        super(p_31991_, p_31992_);
     }
 
-    @Override
-    protected void defineSynchedData() {  }
-
-    @Override
-    protected void readAdditionalSaveData(CompoundTag p_20052_) {  }
-
-    @Override
-    protected void addAdditionalSaveData(CompoundTag p_20139_) {  }
-
-    @Override
-    public Packet<?> getAddEntityPacket() {
-        return null;
+    public EntityDriveEievuiEX(Level p_32001_, double p_32002_, double p_32003_, double p_32004_, ItemStack p_32005_) {
+        super(p_32001_, p_32002_, p_32003_, p_32004_, p_32005_);
     }
+
+    public EntityDriveEievuiEX(Level p_149663_, double p_149664_, double p_149665_, double p_149666_, ItemStack p_149667_, double p_149668_, double p_149669_, double p_149670_) {
+        super(p_149663_, p_149664_, p_149665_, p_149666_, p_149667_, p_149668_, p_149669_, p_149670_);
+    }
+
+
 
 //    protected Entity thrower;
 //    protected List<Entity> alreadyHitEntity = new ArrayList<Entity>();
