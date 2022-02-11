@@ -1,49 +1,14 @@
-//package mod.ryuichimonji.entity;
-//
-//import java.util.ArrayList;
-//import java.util.List;
-//import java.util.Random;
-//
-//import mods.flammpfeil.slashblade.ability.ArmorPiercing;
-//import mods.flammpfeil.slashblade.ability.StylishRankManager;
-//import mods.flammpfeil.slashblade.entity.selector.EntitySelectorAttackable;
-//import mods.flammpfeil.slashblade.entity.selector.EntitySelectorDestructable;
-//import mods.flammpfeil.slashblade.item.ItemSlashBlade;
-//import mods.flammpfeil.slashblade.util.ReflectionAccessHelper;
-//import net.minecraft.block.material.Material;
-//import net.minecraft.entity.Entity;
-//import net.minecraft.entity.EntityLivingBase;
-//import net.minecraft.entity.MoverType;
-//import net.minecraft.entity.player.EntityPlayer;
-//import net.minecraft.entity.projectile.EntityArrow;
-//import net.minecraft.entity.projectile.EntityFireball;
-//import net.minecraft.entity.projectile.EntityThrowable;
-//import net.minecraft.nbt.NBTTagCompound;
-//import net.minecraft.network.datasync.DataParameter;
-//import net.minecraft.network.datasync.DataSerializers;
-//import net.minecraft.network.datasync.EntityDataManager;
-//import net.minecraft.util.DamageSource;
-//import net.minecraft.util.EntityDamageSource;
-//import net.minecraft.util.EnumParticleTypes;
-//import net.minecraft.util.math.AxisAlignedBB;
-//import net.minecraft.util.math.BlockPos;
-//import net.minecraft.util.math.MathHelper;
-//import net.minecraft.util.math.Vec3d;
-//import net.minecraft.world.World;
-//import net.minecraftforge.fml.common.registry.IThrowableEntity;
-//import net.minecraftforge.fml.relauncher.Side;
-//import net.minecraftforge.fml.relauncher.SideOnly;
-//
+package mod.ryuichimonji.entity;
+//TODO: Do it !
 //public class EntityDriveEievuiEX extends Entity implements IThrowableEntity{
-//
+
 //    protected Entity thrower;
 //    protected List<Entity> alreadyHitEntity = new ArrayList<Entity>();
 //    protected static float AttackLevel = 0.0f;
 //    protected static int color = 0x3333FF;
-//
+
 //    public EntityDriveEievuiEX(World worldIn) {
 //        super(worldIn);
-//        // TODO Auto-generated constructor stub
 //    }
 //
 //    public EntityDriveEievuiEX(World worldIn, EntityLivingBase entityLiving,float AttackLevel,boolean multiHit, float roll){
@@ -70,7 +35,6 @@
 //
 //    @Override
 //    protected void entityInit() {
-//        // TODO Auto-generated method stub
 //        this.getDataManager().register(ROLL, 0.0f);
 //        this.getDataManager().register(LIFETIME, 20);
 //        this.getDataManager().register(IS_MULTI_HIT, false);
@@ -112,13 +76,11 @@
 //
 //    @Override
 //    public Entity getThrower() {
-//        // TODO Auto-generated method stub
 //        return this.thrower;
 //    }
 //
 //    @Override
 //    public void setThrower(Entity entity) {
-//        // TODO Auto-generated method stub
 //        this.thrower = entity;
 //    }
 //
@@ -330,13 +292,11 @@
 //
 //    @Override
 //    protected void readEntityFromNBT(NBTTagCompound compound) {
-//        // TODO Auto-generated method stub
 //
 //    }
 //
 //    @Override
 //    protected void writeEntityToNBT(NBTTagCompound compound) {
-//        // TODO Auto-generated method stub
 //
 //    }
 //
