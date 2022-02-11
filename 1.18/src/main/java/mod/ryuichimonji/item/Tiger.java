@@ -32,7 +32,7 @@ public class Tiger extends Item {
         player.playSound(SoundEvents.PLAYER_ATTACK_NODAMAGE,1.0f,0.4F / (GlobalParam.random.nextFloat() * 0.4F + 0.8F));
         player.addEffect(new MobEffectInstance(ModEffectRegister.effectUnseenAidByTiger,15));
         for(int i=0 ; i<2 ; i++) {
-            int roll = i==2 ? 45 : 90 ;
+            int roll = i==1 ? 45 : 90 ;
             // TODO: Hurt entity
             // Code in 1.12.2 :
             /*
